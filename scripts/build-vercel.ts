@@ -41,6 +41,7 @@ writeFileSync(
 );
 writeFileSync(
   resolve(out, "config.json"),
-  JSON.stringify({ version: 3, routes: [{ handle: "filesystem" }, { src: "/(.*)", dest: "/index" }] }, null, 2),
+  // "/" isn't mapped to index.html by the filesystem phase, so route it explicitly.
+  JSON.stringify({ version: 3, routes: [{ src: "^/$", dest: "/index.html" }, { handle: "filesystem" }, { src: "/(.*)", dest: "/index" }] }, null, 2),
 );
 console.log(`built ${out}`);
