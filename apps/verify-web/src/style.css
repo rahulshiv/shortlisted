@@ -1,0 +1,64 @@
+/* Tokens taken from shortlisted.tech so the card renders the same way. */
+:root {
+  --bg: #0a0a0a;
+  --surface: #111;
+  --ink: #f5f5f5;
+  --ink-muted: #f5f5f58c;
+  --rule: #f5f5f51a;
+  --signal: #22c55e;
+  --danger: #ef4444;
+  --sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+.smallcaps { text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.68rem; color: var(--ink-muted); font-family: var(--mono); }
+.muted { color: var(--ink-muted); line-height: 1.6; }
+.mono { font-family: var(--mono); }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 18px 32px; border-bottom: 1px solid var(--rule); }
+.brand { font-weight: 600; letter-spacing: -0.01em; }
+.dot { color: var(--signal); }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 480px); gap: 56px; max-width: 1200px; margin: 0 auto; padding: 56px 32px; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; padding: 32px 16px; gap: 32px; } .top { padding: 16px; } }
+h1 { font-size: 2rem; font-weight: 600; letter-spacing: -0.02em; margin: 12px 0 0; }
+.field { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+.row { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.grow { flex: 1 1 200px; }
+textarea, input { background: var(--surface); border: 1px solid var(--rule); color: var(--ink); font-family: var(--mono); font-size: 12.5px; padding: 12px; border-radius: 6px; outline: none; }
+textarea { min-height: 300px; resize: vertical; line-height: 1.5; }
+textarea:focus, input:focus { border-color: color-mix(in oklab, var(--signal) 55%, transparent); }
+input.small { width: 180px; padding: 10px 12px; margin-top: 20px; }
+button { font-family: var(--sans); font-weight: 600; font-size: 14px; border-radius: 6px; padding: 10px 18px; cursor: pointer; margin-top: 20px; }
+button.primary { background: var(--signal); color: #04120a; border: 1px solid var(--signal); }
+button.primary:hover { background: color-mix(in oklab, var(--signal) 90%, transparent); }
+button.ghost { background: transparent; color: var(--ink); border: 1px solid var(--rule); }
+.error { color: var(--danger); font-family: var(--mono); font-size: 12.5px; }
+
+/* Receipt card: mirrors the shortlisted.tech markup. */
+.card { border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); overflow: hidden; }
+.card-head { display: flex; justify-content: space-between; align-items: center; padding: 0 20px; height: 40px; border-bottom: 1px solid var(--rule); background: #0006; font-family: var(--mono); font-size: 11px; color: var(--ink-muted); }
+.card-head .title { letter-spacing: 0.18em; }
+.card-body { padding: 24px; font-family: var(--mono); font-size: 12.5px; line-height: 1.6; font-variant-numeric: tabular-nums; }
+.dotted-rule { border-top: 1px dotted var(--rule); margin: 16px 0; }
+.line { display: flex; justify-content: space-between; gap: 12px; }
+.line .val { display: flex; align-items: center; gap: 8px; }
+.marker { opacity: 0; }
+.marker.on { opacity: 1; color: var(--signal); }
+.status { letter-spacing: 0.14em; }
+.status.valid { color: var(--signal); }
+.status.invalid { color: var(--danger); }
+.empty { border: 1px dashed var(--rule); border-radius: 6px; padding: 48px 24px; text-align: center; }
+
+.details { margin-top: 24px; }
+.checks { list-style: none; padding: 0; margin: 8px 0 0; font-family: var(--mono); font-size: 12px; }
+.checks li { display: flex; gap: 10px; padding: 4px 0; }
+.checks .ok { color: var(--signal); }
+.checks .bad { color: var(--danger); }
+.checks .detail { color: var(--ink-muted); }
+.table-wrap { overflow-x: auto; margin-top: 8px; border: 1px solid var(--rule); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; font-family: var(--mono); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 6px 10px; border-bottom: 1px dotted var(--rule); white-space: nowrap; }
+th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+th { color: var(--ink-muted); font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; font-size: 10px; }
+tr.paid td:nth-child(2)::after { content: " $"; color: var(--signal); }
+.section { margin-top: 28px; }

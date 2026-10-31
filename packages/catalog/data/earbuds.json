@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "eb-novasound-air",
+    "name": "NovaSound Air",
+    "brand": "NovaSound",
+    "category": "earbuds",
+    "url": "https://novasound.example/air",
+    "attributes": {
+      "price": {
+        "value": 79,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-novasound-air",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 32,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/air/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8.4,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-novasound-air#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.6,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-novasound-air#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/air/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/air/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.8,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/air/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 120,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-novasound-air",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-kestrel-one",
+    "name": "Kestrel One",
+    "brand": "Kestrel",
+    "category": "earbuds",
+    "url": "https://kestrel.example/one",
+    "attributes": {
+      "price": {
+        "value": 89,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-kestrel-one",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 36,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/one/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8.5,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-kestrel-one#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-kestrel-one#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/one/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 5,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/one/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5.4,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/one/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 110,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-kestrel-one",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-acmebuds-pro",
+    "name": "AcmeBuds Pro",
+    "brand": "AcmeBuds",
+    "category": "earbuds",
+    "url": "https://acmebuds.example/pro",
+    "attributes": {
+      "price": {
+        "value": 95,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-acmebuds-pro",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 30,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-acmebuds-pro#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.1,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-acmebuds-pro#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5.1,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 95,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-acmebuds-pro",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-tempo-lite",
+    "name": "Tempo Lite",
+    "brand": "Tempo",
+    "category": "earbuds",
+    "url": "https://tempo.example/lite",
+    "attributes": {
+      "price": {
+        "value": 49,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-tempo-lite",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 24,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.2,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-tempo-lite#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-tempo-lite#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.2,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 150,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-tempo-lite",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-halcyon-drift",
+    "name": "Halcyon Drift",
+    "brand": "Halcyon",
+    "category": "earbuds",
+    "url": "https://halcyon.example/drift",
+    "attributes": {
+      "price": {
+        "value": 129,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-halcyon-drift",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 28,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/drift/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-halcyon-drift#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-halcyon-drift#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/drift/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/drift/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/drift/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 90,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-halcyon-drift",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-pulse-sport-x",
+    "name": "Pulse Sport X",
+    "brand": "Pulse",
+    "category": "earbuds",
+    "url": "https://pulse.example/sport-x",
+    "attributes": {
+      "price": {
+        "value": 69,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-pulse-sport-x",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 40,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/sport-x/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.6,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-pulse-sport-x#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.4,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-pulse-sport-x#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/sport-x/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 7,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/sport-x/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 6.8,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/sport-x/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 140,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-pulse-sport-x",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-orbit-mini",
+    "name": "Orbit Mini",
+    "brand": "Orbit",
+    "category": "earbuds",
+    "url": "https://orbit.example/mini",
+    "attributes": {
+      "price": {
+        "value": 39,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-orbit-mini",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 20,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/mini/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 6.8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-orbit-mini#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.2,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-orbit-mini#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/mini/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/mini/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 3.9,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/mini/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 160,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-orbit-mini",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-lumen-anc-2",
+    "name": "Lumen ANC 2",
+    "brand": "Lumen",
+    "category": "earbuds",
+    "url": "https://lumen.example/anc-2",
+    "attributes": {
+      "price": {
+        "value": 99,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-lumen-anc-2",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 34,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/anc-2/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8.1,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-lumen-anc-2#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-lumen-anc-2#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/anc-2/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 5,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/anc-2/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5.6,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/anc-2/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 105,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-lumen-anc-2",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-cadence-studio",
+    "name": "Cadence Studio",
+    "brand": "Cadence",
+    "category": "earbuds",
+    "url": "https://cadence.example/studio",
+    "attributes": {
+      "price": {
+        "value": 179,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-cadence-studio",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 26,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 9.3,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-cadence-studio#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.4,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-cadence-studio#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5.8,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 85,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-cadence-studio",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-tempo-max",
+    "name": "Tempo Max",
+    "brand": "Tempo",
+    "category": "earbuds",
+    "url": "https://tempo.example/max",
+    "attributes": {
+      "price": {
+        "value": 85,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-tempo-max",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 38,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/max/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-tempo-max#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.6,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-tempo-max#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/max/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 5,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/max/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 6.1,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/max/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 130,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-tempo-max",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-fjord-buds",
+    "name": "Fjord Buds",
+    "brand": "Fjord",
+    "category": "earbuds",
+    "url": "https://fjord.example/buds",
+    "attributes": {
+      "price": {
+        "value": 59,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-fjord-buds",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 30,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/buds/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.5,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-fjord-buds#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-fjord-buds#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/buds/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 5,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/buds/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.9,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/buds/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 135,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-fjord-buds",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-novasound-pro",
+    "name": "NovaSound Pro",
+    "brand": "NovaSound",
+    "category": "earbuds",
+    "url": "https://novasound.example/pro",
+    "attributes": {
+      "price": {
+        "value": 149,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-novasound-pro",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 30,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-novasound-pro#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-novasound-pro#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5.2,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/pro/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 95,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-novasound-pro",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-kestrel-go",
+    "name": "Kestrel Go",
+    "brand": "Kestrel",
+    "category": "earbuds",
+    "url": "https://kestrel.example/go",
+    "attributes": {
+      "price": {
+        "value": 54,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-kestrel-go",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 28,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/go/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.3,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-kestrel-go#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-kestrel-go#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/go/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/go/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.6,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/go/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 145,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-kestrel-go",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-vireo-clear",
+    "name": "Vireo Clear",
+    "brand": "Vireo",
+    "category": "earbuds",
+    "url": "https://vireo.example/clear",
+    "attributes": {
+      "price": {
+        "value": 74,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-vireo-clear",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 26,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/clear/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-vireo-clear#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.5,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-vireo-clear#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/clear/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/clear/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.4,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/clear/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 115,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-vireo-clear",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-pulse-run",
+    "name": "Pulse Run",
+    "brand": "Pulse",
+    "category": "earbuds",
+    "url": "https://pulse.example/run",
+    "attributes": {
+      "price": {
+        "value": 45,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-pulse-run",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 22,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/run/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 6.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-pulse-run#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.2,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-pulse-run#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/run/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 7,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/run/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 5.9,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/run/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 155,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-pulse-run",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-ardent-q3",
+    "name": "Ardent Q3",
+    "brand": "Ardent",
+    "category": "earbuds",
+    "url": "https://ardent.example/q3",
+    "attributes": {
+      "price": {
+        "value": 92,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-ardent-q3",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 42,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/q3/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-ardent-q3#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.3,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-ardent-q3#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/q3/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/q3/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 6.4,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/q3/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 125,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-ardent-q3",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-halcyon-lite",
+    "name": "Halcyon Lite",
+    "brand": "Halcyon",
+    "category": "earbuds",
+    "url": "https://halcyon.example/lite",
+    "attributes": {
+      "price": {
+        "value": 89.99,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-halcyon-lite",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 30,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 8.3,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-halcyon-lite#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 8.6,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-halcyon-lite#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 1,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.7,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 110,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-halcyon-lite",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-marlow-open",
+    "name": "Marlow Open",
+    "brand": "Marlow",
+    "category": "earbuds",
+    "url": "https://marlow.example/open",
+    "attributes": {
+      "price": {
+        "value": 119,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-marlow-open",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 24,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/open/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-marlow-open#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 9.1,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-marlow-open#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/open/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 5,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/open/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 7.2,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/open/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 140,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-marlow-open",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-quill-basics",
+    "name": "Quill Basics",
+    "brand": "Quill",
+    "category": "earbuds",
+    "url": "https://quill.example/basics",
+    "attributes": {
+      "price": {
+        "value": 29,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-quill-basics",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 18,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/basics/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 6.3,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-quill-basics#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-quill-basics#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/basics/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 4,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/basics/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.1,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/basics/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 180,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-quill-basics",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "eb-acmebuds-lite",
+    "name": "AcmeBuds Lite",
+    "brand": "AcmeBuds",
+    "category": "earbuds",
+    "url": "https://acmebuds.example/lite",
+    "attributes": {
+      "price": {
+        "value": 64,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/eb-acmebuds-lite",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 33,
+        "unit": "hours (with case)",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "sound_quality": {
+        "value": 7.8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-acmebuds-lite#sound_quality",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "comfort": {
+        "value": 7.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/earbuds/eb-acmebuds-lite#comfort",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "anc": {
+        "value": 0,
+        "unit": "boolean 0/1",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "water_resistance_ipx": {
+        "value": 5,
+        "unit": "IPX level",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_g": {
+        "value": 4.9,
+        "unit": "grams per bud",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://acmebuds.example/lite/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "latency_ms": {
+        "value": 125,
+        "unit": "ms",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/latency/eb-acmebuds-lite",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  }
+]

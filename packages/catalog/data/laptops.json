@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "lt-kestrel-book-13",
+    "name": "Kestrel Book 13",
+    "brand": "Kestrel",
+    "category": "laptops",
+    "url": "https://kestrel.example/book-13",
+    "attributes": {
+      "price": {
+        "value": 999,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-kestrel-book-13",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 18,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-kestrel-book-13#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 14200,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-kestrel-book-13#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.24,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 500,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 8.6,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-kestrel-book-13#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-halcyon-air-14",
+    "name": "Halcyon Air 14",
+    "brand": "Halcyon",
+    "category": "laptops",
+    "url": "https://halcyon.example/air-14",
+    "attributes": {
+      "price": {
+        "value": 1199,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-halcyon-air-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 20,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-halcyon-air-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 15800,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-halcyon-air-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/air-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/air-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.29,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/air-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 550,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/air-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-halcyon-air-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-ardent-pro-16",
+    "name": "Ardent Pro 16",
+    "brand": "Ardent",
+    "category": "laptops",
+    "url": "https://ardent.example/pro-16",
+    "attributes": {
+      "price": {
+        "value": 1899,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-ardent-pro-16",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 14,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-ardent-pro-16#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 22500,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-ardent-pro-16#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 32,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 1024,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 2.05,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 600,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 8.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-ardent-pro-16#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-orbit-chromebook-14",
+    "name": "Orbit Chromebook 14",
+    "brand": "Orbit",
+    "category": "laptops",
+    "url": "https://orbit.example/chromebook-14",
+    "attributes": {
+      "price": {
+        "value": 349,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-orbit-chromebook-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 12,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-orbit-chromebook-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 5200,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-orbit-chromebook-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 8,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/chromebook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 128,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/chromebook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.45,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/chromebook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 300,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/chromebook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 6.8,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-orbit-chromebook-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-vireo-slim-13",
+    "name": "Vireo Slim 13",
+    "brand": "Vireo",
+    "category": "laptops",
+    "url": "https://vireo.example/slim-13",
+    "attributes": {
+      "price": {
+        "value": 849,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-vireo-slim-13",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 16,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-vireo-slim-13#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 12100,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-vireo-slim-13#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/slim-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/slim-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.15,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/slim-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 400,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/slim-13/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 8.1,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-vireo-slim-13#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-marlow-creator-15",
+    "name": "Marlow Creator 15",
+    "brand": "Marlow",
+    "category": "laptops",
+    "url": "https://marlow.example/creator-15",
+    "attributes": {
+      "price": {
+        "value": 1599,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-marlow-creator-15",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 11,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-marlow-creator-15#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 19800,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-marlow-creator-15#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 32,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/creator-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 1024,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/creator-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.86,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/creator-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 500,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/creator-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 8.4,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-marlow-creator-15#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-fjord-work-14",
+    "name": "Fjord Work 14",
+    "brand": "Fjord",
+    "category": "laptops",
+    "url": "https://fjord.example/work-14",
+    "attributes": {
+      "price": {
+        "value": 1099,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-fjord-work-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 15,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-fjord-work-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 13900,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-fjord-work-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/work-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/work-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.38,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/work-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 400,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/work-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 8.5,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-fjord-work-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-pulse-gamer-17",
+    "name": "Pulse Gamer 17",
+    "brand": "Pulse",
+    "category": "laptops",
+    "url": "https://pulse.example/gamer-17",
+    "attributes": {
+      "price": {
+        "value": 1749,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-pulse-gamer-17",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 6,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-pulse-gamer-17#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 24100,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-pulse-gamer-17#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 32,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/gamer-17/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 1024,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/gamer-17/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 2.75,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/gamer-17/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 350,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://pulse.example/gamer-17/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 7.6,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-pulse-gamer-17#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-quill-student-15",
+    "name": "Quill Student 15",
+    "brand": "Quill",
+    "category": "laptops",
+    "url": "https://quill.example/student-15",
+    "attributes": {
+      "price": {
+        "value": 499,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-quill-student-15",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 10,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-quill-student-15#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 7600,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-quill-student-15#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 8,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/student-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 256,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/student-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.75,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/student-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 250,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://quill.example/student-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 6.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-quill-student-15#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-cadence-studio-16",
+    "name": "Cadence Studio 16",
+    "brand": "Cadence",
+    "category": "laptops",
+    "url": "https://cadence.example/studio-16",
+    "attributes": {
+      "price": {
+        "value": 2299,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-cadence-studio-16",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 17,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-cadence-studio-16#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 26800,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-cadence-studio-16#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 36,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 1024,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 2.1,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 1000,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://cadence.example/studio-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 9.3,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-cadence-studio-16#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-lumen-flip-14",
+    "name": "Lumen Flip 14",
+    "brand": "Lumen",
+    "category": "laptops",
+    "url": "https://lumen.example/flip-14",
+    "attributes": {
+      "price": {
+        "value": 749,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-lumen-flip-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 13,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-lumen-flip-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 10400,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-lumen-flip-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/flip-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/flip-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.52,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/flip-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 350,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://lumen.example/flip-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 7.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-lumen-flip-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-tempo-go-12",
+    "name": "Tempo Go 12",
+    "brand": "Tempo",
+    "category": "laptops",
+    "url": "https://tempo.example/go-12",
+    "attributes": {
+      "price": {
+        "value": 429,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-tempo-go-12",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 11,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-tempo-go-12#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 6100,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-tempo-go-12#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 8,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/go-12/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 128,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/go-12/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.05,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/go-12/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 300,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://tempo.example/go-12/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 7.2,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-tempo-go-12#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-novabook-14",
+    "name": "NovaBook 14",
+    "brand": "NovaSound",
+    "category": "laptops",
+    "url": "https://novasound.example/novabook-14",
+    "attributes": {
+      "price": {
+        "value": 899,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-novabook-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 14,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-novabook-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 12800,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-novabook-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/novabook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/novabook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.41,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/novabook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 450,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://novasound.example/novabook-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 7.9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-novabook-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-kestrel-book-15",
+    "name": "Kestrel Book 15",
+    "brand": "Kestrel",
+    "category": "laptops",
+    "url": "https://kestrel.example/book-15",
+    "attributes": {
+      "price": {
+        "value": 1299,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-kestrel-book-15",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 17,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-kestrel-book-15#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 16500,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-kestrel-book-15#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 24,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 1024,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.55,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 500,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://kestrel.example/book-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 8.7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-kestrel-book-15#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-halcyon-pro-16",
+    "name": "Halcyon Pro 16",
+    "brand": "Halcyon",
+    "category": "laptops",
+    "url": "https://halcyon.example/pro-16",
+    "attributes": {
+      "price": {
+        "value": 2499,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-halcyon-pro-16",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 22,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-halcyon-pro-16#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 29400,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-halcyon-pro-16#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 48,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 2048,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 2.14,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 1000,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://halcyon.example/pro-16/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 9.4,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-halcyon-pro-16#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-ardent-lite-14",
+    "name": "Ardent Lite 14",
+    "brand": "Ardent",
+    "category": "laptops",
+    "url": "https://ardent.example/lite-14",
+    "attributes": {
+      "price": {
+        "value": 699,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-ardent-lite-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 12,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-ardent-lite-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 9800,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-ardent-lite-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/lite-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/lite-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.39,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/lite-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 300,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://ardent.example/lite-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 7.4,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-ardent-lite-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-orbit-plus-15",
+    "name": "Orbit Plus 15",
+    "brand": "Orbit",
+    "category": "laptops",
+    "url": "https://orbit.example/plus-15",
+    "attributes": {
+      "price": {
+        "value": 599,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-orbit-plus-15",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 9,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-orbit-plus-15#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 8900,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-orbit-plus-15#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 12,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/plus-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/plus-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.82,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/plus-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 300,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://orbit.example/plus-15/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 7,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-orbit-plus-15#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-vireo-x1-carbon",
+    "name": "Vireo X1 Carbon",
+    "brand": "Vireo",
+    "category": "laptops",
+    "url": "https://vireo.example/x1-carbon",
+    "attributes": {
+      "price": {
+        "value": 1449,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-vireo-x1-carbon",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 19,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-vireo-x1-carbon#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 15100,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-vireo-x1-carbon#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 32,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/x1-carbon/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 1024,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/x1-carbon/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.12,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/x1-carbon/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 500,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://vireo.example/x1-carbon/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 9.1,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-vireo-x1-carbon#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-fjord-rugged-14",
+    "name": "Fjord Rugged 14",
+    "brand": "Fjord",
+    "category": "laptops",
+    "url": "https://fjord.example/rugged-14",
+    "attributes": {
+      "price": {
+        "value": 1649,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-fjord-rugged-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 13,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-fjord-rugged-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 12600,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-fjord-rugged-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 16,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/rugged-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 512,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/rugged-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 2.3,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/rugged-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 1000,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://fjord.example/rugged-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 9,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-fjord-rugged-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  },
+  {
+    "id": "lt-marlow-budget-14",
+    "name": "Marlow Budget 14",
+    "brand": "Marlow",
+    "category": "laptops",
+    "url": "https://marlow.example/budget-14",
+    "attributes": {
+      "price": {
+        "value": 379,
+        "unit": "USD",
+        "source": {
+          "type": "retailer",
+          "ref": "https://shop.example/p/lt-marlow-budget-14",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "battery_hours": {
+        "value": 8,
+        "unit": "hours (video playback)",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-marlow-budget-14#battery_hours",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "cpu_score": {
+        "value": 5800,
+        "unit": "multi-core benchmark points",
+        "source": {
+          "type": "lab_measurement",
+          "ref": "https://lab.example/laptops/lt-marlow-budget-14#cpu_score",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "ram_gb": {
+        "value": 8,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/budget-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "storage_gb": {
+        "value": 256,
+        "unit": "GB",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/budget-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "weight_kg": {
+        "value": 1.6,
+        "unit": "kg",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/budget-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "display_nits": {
+        "value": 250,
+        "unit": "nits",
+        "source": {
+          "type": "manufacturer",
+          "ref": "https://marlow.example/budget-14/specs",
+          "retrieved_at": "2026-10-15"
+        }
+      },
+      "build_quality": {
+        "value": 6.5,
+        "unit": "score 0-10",
+        "source": {
+          "type": "review_aggregate",
+          "ref": "https://reviews.example/laptops/lt-marlow-budget-14#build",
+          "retrieved_at": "2026-10-15"
+        }
+      }
+    }
+  }
+]

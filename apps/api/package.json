@@ -1,0 +1,19 @@
+{
+  "name": "@shortlisted/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/app.ts" },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "@shortlisted/mcp-server": "workspace:*",
+    "@shortlisted/receipts": "workspace:*",
+    "@shortlisted/store": "workspace:*",
+    "@shortlisted/tenders": "workspace:*",
+    "hono": "^4.6.14"
+  }
+}

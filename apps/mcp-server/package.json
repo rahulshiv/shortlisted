@@ -1,0 +1,23 @@
+{
+  "name": "@shortlisted/mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "stdio": "tsx src/stdio.ts",
+    "dev:http": "tsx watch src/http.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@hono/node-server": "^1.13.7",
+    "@modelcontextprotocol/sdk": "^1.24.0",
+    "@shortlisted/catalog": "workspace:*",
+    "@shortlisted/core": "workspace:*",
+    "@shortlisted/receipts": "workspace:*",
+    "@shortlisted/store": "workspace:*",
+    "@shortlisted/tenders": "workspace:*",
+    "hono": "^4.6.14",
+    "zod": "^3.25.0"
+  }
+}

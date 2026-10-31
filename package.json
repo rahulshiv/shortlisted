@@ -1,0 +1,33 @@
+{
+  "name": "shortlisted",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm seed && concurrently -n api,mcp,web -c blue,magenta,green \"pnpm --filter @shortlisted/api dev\" \"pnpm --filter @shortlisted/mcp-server dev:http\" \"pnpm --filter @shortlisted/verify-web dev\"",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json",
+    "check": "pnpm typecheck && pnpm test",
+    "seed": "tsx scripts/seed.ts",
+    "demo": "tsx scripts/demo.ts",
+    "keygen": "tsx scripts/keygen.ts",
+    "build:vercel": "tsx scripts/build-vercel.ts",
+    "mcp": "pnpm --filter @shortlisted/mcp-server stdio"
+  },
+  "devDependencies": {
+    "@shortlisted/catalog": "workspace:*",
+    "@shortlisted/core": "workspace:*",
+    "@shortlisted/mcp-server": "workspace:*",
+    "@shortlisted/receipts": "workspace:*",
+    "@shortlisted/store": "workspace:*",
+    "@types/node": "^22.10.0",
+    "concurrently": "^9.1.0",
+    "esbuild": "^0.21.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

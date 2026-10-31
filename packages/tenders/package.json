@@ -1,0 +1,15 @@
+{
+  "name": "@shortlisted/tenders",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "@noble/hashes": "^1.6.1",
+    "@shortlisted/catalog": "workspace:*",
+    "@shortlisted/core": "workspace:*",
+    "@shortlisted/receipts": "workspace:*",
+    "@shortlisted/store": "workspace:*",
+    "zod": "^3.24.1"
+  }
+}

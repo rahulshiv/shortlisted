@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Verify a receipt · Shortlisted</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <span class="brand">shortlisted<span class="dot">.</span></span>
+      <span class="smallcaps">receipt verifier</span>
+    </header>
+    <main class="layout">
+      <section class="input">
+        <div class="smallcaps">Verify</div>
+        <h1>Paste a decision receipt.</h1>
+        <p class="muted">Verification runs in your browser: the Ed25519 signature, the content hash, and a full re-run of the scorer on the receipt's own inputs. Nothing is sent anywhere except the request for the issuer's public key.</p>
+        <label class="field">
+          <span class="smallcaps">Receipt JSON</span>
+          <textarea id="receipt" spellcheck="false" placeholder='{ "version": "shortlisted.receipt/v0", "id": "rct_…", … }'></textarea>
+        </label>
+        <div class="row">
+          <label class="field grow">
+            <span class="smallcaps">Issuer</span>
+            <input id="issuer" value="http://localhost:8787" spellcheck="false" />
+          </label>
+          <label class="field grow">
+            <span class="smallcaps">or public key (hex)</span>
+            <input id="pubkey" placeholder="fetched from issuer if empty" spellcheck="false" />
+          </label>
+        </div>
+        <div class="row">
+          <button id="verify" class="primary">Verify</button>
+          <button id="load" class="ghost">Load by id</button>
+          <input id="rid" class="mono small" placeholder="rct_…" spellcheck="false" />
+        </div>
+        <p id="error" class="error" hidden></p>
+      </section>
+      <section class="output">
+        <div id="card"></div>
+        <div id="details"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
